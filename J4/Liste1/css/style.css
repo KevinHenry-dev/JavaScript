@@ -1,0 +1,119 @@
+/*** fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Viga&display=swap');
+/*** reset **/
+*{
+	margin:0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+body{
+	font-size: 1.6rem;
+	line-height: 1.333;
+	font-family: 'Oswald', sans-serif;
+	/*color:rgba(255,255,255,0.7);*/
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+button{
+	font-size: 1.6rem;
+	font-family: 'Oswald', sans-serif;
+	cursor: pointer;
+}
+h1,h2,h3,h4{
+	color: #333;
+	font-family:'Viga', sans-serif;
+	font-weight: lighter;
+}
+
+.list-container{
+	background-color: #eee;
+	width: 400px;
+	margin: 50px;
+	border:1px solid #ddd;
+	padding: 0 5px;
+}
+.list>header{
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px;
+}
+.btn-container{
+	display: flex;
+	justify-content: space-between;
+}
+.btn-container button,.creat-item button{
+	text-align: center;
+	width: 100px;
+	background-color: #fff;
+	border:1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+.btn-container button:active,.creat-item button{
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+}
+.list .content{
+	background-color: #fff;
+}
+.list>footer{
+	height: 30px;
+}
+/****** cretion d'item *****/
+.creat-item{
+	background-color: #fff;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	display: none;
+}
+.creat-item input{
+	width: 100%;
+	border: none;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 3px;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	box-shadow:inset 0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+/*********** items *********/
+.item-list{
+	padding: 5px;
+	margin:5px 10px;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.item-list:last-child{
+	border:none;
+}
+/*.item-list img{
+	width: 60px;
+	border-radius: 5px 0 0 5px;
+}*/
+/*.item-list>div{
+	width: calc(100% - 60px);
+	padding: 0 5px;
+	font-size: 1.7rem;
+}*/
+/*.item-list p:first-child{
+	font-weight: lighter;
+}*/

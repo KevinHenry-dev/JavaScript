@@ -1,0 +1,19 @@
+revoir tout le javascript (en proirité)
+https://www.pierre-giraud.com/javascript-apprendre-coder-cours/
+
+Asynchronisme en javascript :
+https://www.youtube.com/playlist?list=PLQkrqTy7RjTEYF78FA-SnhoLZvJ8NdCXh
+
+destructuring 
+https://www.youtube.com/watch?v=1pjEUEVWQ9Y
+
+javascript de pointe (eng)
+https://www.youtube.com/@Frankslaboratory
+
+dev generalist
+https://www.youtube.com/@grafikart/playlists
+
+dev generalist
+https://www.youtube.com/@FromScratchDeveloppementWeb
+
+https://openclassrooms.com/fr/

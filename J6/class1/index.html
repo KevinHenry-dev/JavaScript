@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script>
+
+	class Vegetal {
+		constructor(type,genre){
+			this.type = type;
+			this.genre = genre;
+		}
+
+		plentation(date){
+			console.log(date)
+		}
+	}
+
+
+	class Fruit extends Vegetal{
+		constructor(type,genre){
+			super(type,genre);
+		}
+
+	}
+
+	class Legume extends Vegetal{
+		constructor(type,genre){
+			super(type,genre);
+		}
+	}
+
+	let tomate = new Fruit('sucré','sauce');
+
+	tomate.plentation('10/12/2024');
+	console.log(tomate)
+
+</script>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // creation de tab et objets
+    var test = ["a","b","c","d"];
+    var o = {ab:10,cd:15,ef:20};
+
+    // ici decomposition de l'objet
+    const {ab,cd,ef} = o;
+    // changement du nom de la clef
+    const {ab:a,cd:b,ef:c} = o;
+    console.log(a)
+    // gestion dans une fonction
+    function testAlert({cd:u}){
+        console.log(u)
+    }
+    testAlert(o);
+    // decomposition d'un tableau
+    let [x,y,z,d] = test;
+    // recuperation d'une seul props sur un tableau
+    let [,g,,] = test;
+
+    //creation d'une copie d'objet avec le sperad opérator, puis modification en rajoutant une clef/valeur
+    let oCopy = {...o,
+        un:"test"
+    };
+    // test en changant une valeur
+    oCopy.cd = 120;
+
+    console.log(o,oCopy)
+    // meme chose sur les tableau
+    let tabCopy = [...test];
+    tabCopy[1] = "gree"
+    console.log(tabCopy,test)
+
+    // creation d'un tableau a assemblage multiple
+    let ar = [...test,'ici',...tabCopy];
+
+    console.log(ar)
+
+
+ // rest parametor permettant de creer lors de l'execution de la fonction, un tableau avec les 
+ // parametres. (inverse d'un spread)
+    function testArray(na,...params){
+        params.forEach((n)=>{
+            console.log(n,na)
+
+        })
+    }
+
+    testArray('name',6,7,5);
+</script>
+</html>

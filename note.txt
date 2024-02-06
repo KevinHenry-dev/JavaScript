@@ -1,0 +1,41 @@
+les commentaires
+les variables
+	var -> https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/var
+	let -> https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/let
+	const -> https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Statements/const
+les types primitif (string, number, boolean)
+	-> https://developer.mozilla.org/fr/docs/Web/JavaScript/Data_structures
+	string
+	number
+	boolean
+	symbol
+	Bigint
+	-> https://developer.mozilla.org/fr/docs/Glossary/Primitive
+les arrays
+	array -> https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array
+les objets
+	-> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects
+	-> https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Object
+	-> https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Working_with_objects
+	-> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/Basics
+les constantes
+	-> https://www.pierre-giraud.com/javascript-apprendre-coder-cours/constante/
+les boucles
+	-> https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Loops_and_iteration
+	for ->
+	do while ->
+	while ->
+	label ->
+	break ->
+	continue ->
+	for in ->
+	for of ->
+les conditions
+	Experssion et Oppérateurs -> https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Expressions_and_Operators
+				  -> https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+les fonctions
+	-> https://developer.mozilla.org/fr/docs/web/javascript/guide/functions
+	-> https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Functions
+
+les portées locales et globales
+	-> https://www.pierre-giraud.com/javascript-apprendre-coder-cours/portee-variable-return-fonction/

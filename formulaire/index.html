@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulaire</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<main>
+		<header>
+			<img src="img/logo.png" alt="formulaire logo" class="logo-site">
+		</header>
+		<section class="pages">
+			<div>
+				<h2>Contact</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quidem a velit obcaecati voluptatem sunt impedit cum totam laudantium, corrupti perspiciatis vero magni illo illum hic non eum ad. Quisquam nobis alias maiores nam inventore aut quo dolorem libero quae.</p>
+				<ul>
+					<li>
+						<h3>adresse</h3>
+						<p>10 rue de la boustifaille, paris</p>
+					</li>
+					<li>
+						<h3>phone</h3>
+						<p>06 01 02 03 04</p>
+					</li>
+					<li>
+						<h3>e-mail</h3>
+						<p>GrunkOfMorgoth@gmail.gnom</p>
+					</li>
+				</ul>
+			</div>
+			<form id="form" class="contact-form" action="php/mailer.php" method="post">
+				<h2>contact form</h2>
+				<input type="text" name="nom" placeholder="Votre nom">
+				<input type="mail" name="mail" placeholder="Votre e-mail">
+				<textarea name="msg" placeholder="Message"></textarea>
+				<input class="btn-send" type="submit" value="envoyer">
+			</form>
+		</section>
+			<div id="popupMessage" class="popup-form">
+				<button>X</button>
+				<p>message</p>
+			</div>
+	</main>
+	<script src="js/form.js"></script>
+</body>
+</html>

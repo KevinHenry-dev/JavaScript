@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<h1>Listes</h1>
+	</header>
+	<main>
+		<div id="list-container" class="list-container">
+			<div id="list" class="list">
+				<header id="list-header">
+					<h2 id="title">titre de liste</h2>
+					<div id="btn-container" class="btn-container">
+						<button>Creer</button>
+						<button>Supprimer</button>
+					</div>
+				</header>
+				<div class="creat-item">
+					<input type="text">
+					<button>valider</button>
+				</div>
+				<div class="content">
+				</div>
+				<footer>
+					<p class="message-list"></p>
+				</footer>
+			</div>
+			<div id="list-user" class="list">
+				<header id="list-header">
+					<h2 id="title">titre de frite</h2>
+					<div class="btn-container">
+						<button>Creer</button>
+						<button>Supprimer</button>
+					</div>
+				</header>
+				<div class="creat-item">
+					<input type="text">
+					<button>valider</button>
+					<p class="select-btn-img">Selectionner un avatar</p>
+					<ul class="panel-avatar">
+						<li>
+							<img src="./img/avatars/avatar_characterdesign.jpg">	
+						</li><li>
+							<img src="./img/avatars/avatar_game-s_of_nes.jpg">	
+						</li>
+						<li>
+							<img src="./img/avatars/avatar_homer.jpg">	
+						</li>
+						<li>
+							<img src="./img/avatars/avatar_jokerMacDo.jpg">	
+						</li>
+						<li>
+							<img src="./img/avatars/avatar_musique.jpg">	
+						</li>
+						<li>
+							<img src="./img/avatars/avatar_pika.jpg">	
+						</li>
+						<li>
+							<img src="./img/avatars/avatar_renard.jpg">	
+						</li>
+						<li>
+							<img src="./img/avatars/avatar_robot.jpg">	
+						</li>	
+					</ul>
+					<input type="hidden">
+				</div>
+				<div class="content">
+				</div>
+				<footer>
+					<p class="message-list"></p>
+				</footer>
+			</div>
+
+
+			
+		</div>
+	</main>
+</body>
+<script type="text/javascript" src="./js/Item.js"></script>
+<script type="text/javascript" src="./js/ListManager.js"></script>
+<script type="text/javascript" src="./js/app.js"></script>
+</html>

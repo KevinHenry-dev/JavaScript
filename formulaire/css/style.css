@@ -1,0 +1,149 @@
+/*** fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Viga&display=swap');
+/*** reset **/
+*{
+	margin:0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+body{
+	font-size: 1.6rem;
+	line-height: 1.333;
+	background-color: #191918;
+	font-family: 'Oswald', sans-serif;
+	color:rgba(255,255,255,0.7);
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4{
+	color: #fff;
+}
+/*** global ***/
+main{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around; 
+}
+.logo-site{
+	width: 250px;
+}
+.pages{
+	width: 70%;
+	height: 80%;
+	box-shadow: 0 0 15px 0 #000;
+	background: url(../img/bg_page.png) no-repeat left top fixed;
+	background-size: cover;
+	padding: 3%;
+	display: flex;
+	flex-direction: column;
+}
+.pages>div{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.pages>div,.contact-form{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.pages>div h2,.contact-form h2{
+	font-size: 6rem;
+	text-transform: uppercase;
+}
+.pages>div>p{
+	font-size: 1.8rem;
+	line-height: 1.5;
+	padding: 50px;
+}
+.pages>div li{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.pages>div li h3{
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+.contact-form{
+	padding: 0 100px;
+}
+.contact-form input:not(.btn-send), .contact-form textarea{
+	height: 40px;
+	border:none;
+	border-bottom: 2px solid rgba(0,0,0,0.5);
+	background: none;
+	line-height: 1.8;
+	font-size: 1.8rem;
+	width: 100%;
+	color: #eee;
+}
+.btn-send{
+	text-align: center;
+	background: #191918 url('../img/ico_arrow-right.svg') no-repeat 80% center;
+	background-size: auto 30%;
+	padding: 15px 45px;
+	font-weight: 200;
+	color: #fff;
+	font-size: 1.4rem;
+	letter-spacing: 3px;
+	border:none;
+	width: 200px;
+	text-align: left;
+	display: inline-block;
+	box-shadow: 0 6px 10px 3px rgba(0,0,0,0.5);
+}
+.popup-form{
+	position: fixed;
+	width: 400px;
+	padding:20px 40px;
+	font-size: 2rem;
+	font-weight: lighter;
+	background: #191918;
+	border: 2px solid rgba(0,0,0,0.5);
+	border-radius: 4px;
+	z-index: 10;
+	top: 60%;
+	left: 50%;
+	margin-left: -200px;
+	box-shadow: 0 6px 10px 3px rgba(0,0,0,0.5);
+	display: none;
+}
+.popup-form button{
+	font-size: 2.5rem;
+	color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+.popup-form button:hover{
+	color: rgba(0, 0, 0, 1);
+}
+
+@media screen and (min-width: 1024px){
+	.pages{
+		flex-direction: row;
+	}
+	.pages>div{
+		border-bottom:none;
+	}
+}
